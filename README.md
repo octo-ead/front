@@ -1,3 +1,7 @@
+# OCTO EAD
+
+## EAD project (distance learning) totally open source.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
