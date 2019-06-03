@@ -1,7 +1,7 @@
 import React from "react";
-import { makeStyles } from "@material-ui/styles";
 import Grid from "@material-ui/core/Grid";
-import Logo from "../assets/images/octo-ead-2-coral.fw.png";
+import { makeStyles } from "@material-ui/styles";
+import Logo from "../../assets/images/octo-ead-2-coral.fw.png";
 
 const useStyles = makeStyles({
   root: {
@@ -19,12 +19,12 @@ const useStyles = makeStyles({
   }
 });
 
-export const App = () => {
-  const classes = useStyles();
+export const Home = () => {
+  let className = useStyles();
   return (
     <>
-      <Grid className={classes.root}>
-        <img alt="octo-ead" src={Logo} className={classes.bigLogo} />
+      <Grid className={className.root}>
+        <img alt="octo-ead" src={Logo} className={className.bigLogo} />
       </Grid>
     </>
   );
