@@ -18,3 +18,5 @@ Contribuir é uma excelente forma de aprender ainda mais! Além de melhorar a pl
 Rafael: [Github](https://github.com/rafaelmenon)
 
 E-mail: rafael13rodrigo@gmail.com
+
+Slack: Entre no canal do [Slack](plataformaead-2mq8327.slack.com) e participe da nossa comunidade!
