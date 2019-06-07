@@ -73,7 +73,27 @@ export const App = () => {
           Accesar comunidade
         </Button>
       </Container>
-
+      
+      <Grid container spacing={4}>
+        {cards.map(card => (
+        <Grid item key={card} xs={12} sm={6} md={4}>
+          <Card className={classes.card}>
+            <img alt="octo-ead" src={Logo} className={classes.cardMedia}/>
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2">
+                Title course
+              </Typography>
+              <Typography component="p">
+                Descripcion of course.
+              </Typography>
+            </CardContent>
+            <CardActions>
+              <Button fullWidth variant="contained" className={classes.button}>Go do it</Button>     
+            </CardActions>
+          </Card>
+        </Grid>
+      ))}
+      </Grid>
     </div>
   );
 };
