@@ -42,13 +42,23 @@ const useStyles = makeStyles({
   },
 });
 
-export const Home = () => {
-  let className = useStyles();
+const cards = [1,2,3,4,5,6]; 
+
+export const App = () => {
+  const classes = useStyles();
   return (
-    <>
-      <Grid className={className.root}>
-        <img alt="octo-ead" src={Logo} className={className.bigLogo} />
-      </Grid>
-    </>
+    <div className={classes.root}> 
+
+      <AppBar position="fixed" className={classes.barDark}>
+        <Toolbar>
+          <img alt="octo-ead" src={Logo} className={classes.bigLogo} />
+          <Typography className={classes.title}>
+            OctoEAD
+          </Typography>
+          <Button variant="contained" className={classes.button}>Login</Button>
+        </Toolbar>
+      </AppBar>
+
+    </div>
   );
 };
