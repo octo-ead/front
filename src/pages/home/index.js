@@ -59,6 +59,21 @@ export const App = () => {
         </Toolbar>
       </AppBar>
 
+      <Container className={classes.heroContainer}>
+        <Typography component="h1" variant="h2" align="center" gutterBottom>
+          OctoEAD
+        </Typography>
+        <Typography variant="h5" align="center" paragraph>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type 
+          specimen book. 
+        </Typography>
+        <Button variant="contained" className={classes.button}>
+          Accesar comunidade
+        </Button>
+      </Container>
+
     </div>
   );
 };
